@@ -1,0 +1,247 @@
+body {
+  overflow-x: hidden;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  vertical-align: middle;
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+}
+.navbar-logo-part {
+  height: 100%;
+  width: 10vw;
+  align-self: center;
+  vertical-align: middle;
+  padding: auto;
+}
+.navbar-models {
+  width: 90vw;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  flex-direction: row;
+  margin: auto 0;
+}
+.model {
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+  list-style: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 2%;
+  text-align: center;
+  font: 10px D-DIN-Bold, Arial, Verdana, sans-serif;
+  position: relative;
+}
+.model-active {
+  color: white;
+}
+.model:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.model:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.spacex-logo {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.navbar-right {
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+}
+.login-nav {
+  align-self: flex-end;
+  top: 0px;
+}
+.sidebar.nav {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+@media all and (max-width: 1024px) {
+  .navbar {
+    display: block;
+  }
+  .navbar-models,
+  .navbar-shop,
+  .login-nav {
+    display: none;
+  }
+  .navbar-logo {
+    width: 24vw;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+  }
+}
+@media all and (max-width: 960px) {
+  .navbar-models,
+  .navbar-shop,
+  .login-nav {
+    display: none;
+  }
+  .navbar-logo,
+  .spacex-logo {
+    width: 24vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media all and (max-width: 768px) {
+  .navbar-logo {
+    width: 30vw;
+  }
+}
+@media all and (max-width: 600px) {
+  .navbar-logo {
+    width: 30vw;
+  }
+}
+@media all and (max-width: 450px) {
+  .navbar-logo {
+    width: 30vw;
+  }
+}
+
+/* body {
+  overflow-x: hidden;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  vertical-align: middle;
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+}
+.navbar-logo-part {
+  height: 100%;
+  width: 10vw;
+  align-self: center;
+  vertical-align: middle;
+  padding: auto;
+}
+.navbar-models {
+  width: 90vw;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  flex-direction: row;
+  margin: auto 0;
+}
+.model {
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+  list-style: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 2%;
+  text-align: center;
+  font: 10px D-DIN-Bold, Arial, Verdana, sans-serif;
+  position: relative;
+}
+.model-active {
+  color: white;
+}
+.model:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.model:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.spacex-logo {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.navbar-right {
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+}
+.login-nav {
+  align-self: flex-end;
+  top: 0px;
+}
+.sidebar.nav {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+@media all and (max-width: 1024px) {
+  .navbar {
+    display: block;
+  }
+  .navbar-models,
+  .navbar-shop,
+  .login-nav {
+    display: none;
+  }
+  .navbar-logo {
+    width: 24vw;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+  }
+}
+@media all and (max-width: 960px) {
+  .navbar-models,
+  .navbar-shop,
+  .login-nav {
+    display: none;
+  }
+  .navbar-logo,
+  .spacex-logo {
+    width: 24vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media all and (max-width: 768px) {
+  .navbar-logo {
+    width: 30vw;
+  }
+}
+@media all and (max-width: 600px) {
+  .navbar-logo {
+    width: 30vw;
+  }
+}
+@media all and (max-width: 450px) {
+  .navbar-logo {
+    width: 30vw;
+  }
+} */

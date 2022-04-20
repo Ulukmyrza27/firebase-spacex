@@ -1,0 +1,60 @@
+body {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.background-image {
+  height: 769px;
+  /* max-width: 1400px; */
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("../images/fh_feature.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.falcon-heavy-title {
+  position: relative;
+  font: 100px/85px D-DIN-Bold, Arial, Verdana, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #fff;
+  margin: auto;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+
+  /* overflow-x: hidden; */
+}
+.falcon-heavy-is {
+  color: #fff;
+  margin: auto;
+  width: 100%;
+  font: 20px/15px D-DIN-Bold, Arial, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: auto auto 10px;
+  flex-wrap: wrap;
+}
+.counter-heavy {
+  background-color: black;
+  color: #fff;
+  margin-top: 5%;
+}
+.header-inner-text {
+  height: 100%;
+}
+@media all and (max-width: 480px) {
+  .background-image {
+    width: 100%;
+  }
+  .falcon-heavy-title {
+    font-size: 60px;
+  }
+}

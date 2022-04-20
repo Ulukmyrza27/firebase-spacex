@@ -1,0 +1,144 @@
+.details-container-inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: "30px";
+  text-align: left;
+}
+
+.details-context {
+  text-align: left;
+  width: 50%;
+}
+
+.details-context h1,
+h2,
+p,
+h4 {
+  text-align: left;
+}
+
+.details-description {
+  width: 60%;
+}
+
+.details-colors {
+  width: 30vw;
+  display: flex;
+  align-items: "center";
+}
+
+.details-image {
+  width: 40%;
+}
+
+.details-comments {
+  border: 1px solid grey;
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.size-buttons-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.size-buttons {
+  width: 50px;
+  padding: 15px 10px;
+  font-size: 20px;
+}
+
+.size-buttons:hover {
+  background-color: black;
+  color: white;
+}
+
+.likes-div {
+  text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+  .details-image {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .details-container-inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .details-comments {
+    margin: 0 auto 50px;
+  }
+
+  .details-context {
+    text-align: center;
+    width: 90%;
+  }
+
+  .details-context h1,
+  h2,
+  p,
+  h4 {
+    text-align: center;
+  }
+
+  .likes-div {
+    text-align: center;
+  }
+
+  .details-description {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .size-buttons-div {
+    justify-content: center;
+  }
+
+  .details-colors {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .details-image {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .details-comments-inner {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .details-context-inner {
+    width: 100%;
+  }
+
+  .details-avatar {
+    margin: 20px 0px 0 20px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .details-comments {
+    width: 95%;
+  }
+
+  .details-avatar {
+    margin: 20px 0px 0 10px;
+    width: 80%;
+  }
+}

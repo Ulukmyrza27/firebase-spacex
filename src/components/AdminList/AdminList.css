@@ -1,0 +1,36 @@
+.admin-list {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin-products-buttons {
+  margin-right: "40px";
+}
+
+@media screen and (max-width: 750px) {
+  .admin-products-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .admin-products-edit {
+    margin-top: 20px;
+  }
+
+  .admin-products-buttons {
+    margin-top: 20px;
+  }
+
+  .admin-products-description {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .admin-products-description {
+    display: none;
+  }
+}

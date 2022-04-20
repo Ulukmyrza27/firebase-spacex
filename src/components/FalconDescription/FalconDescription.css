@@ -1,0 +1,46 @@
+.fd {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+  margin-top: 10%;
+  background-color: black;
+}
+.fd-bcg {
+  background-image: url("https://www.renderhub.com/creator-3d/falcon-heavy-v1-2/falcon-heavy-v1-2-02.jpg");
+  background-repeat: no-repeat;
+  /* background-color: rgba(255, 255, 255, 0.151); */
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  filter: blur(0, 5px);
+  display: flex;
+  float: right;
+}
+
+.fd-inner-text {
+  display: flex;
+  color: rgb(253, 249, 249);
+  font-size: 18px;
+  font: 28px/38px, D-DIN-Medium, Arial, Verdana, sans-serif;
+  font-weight: 400;
+  margin: auto 0;
+  margin-left: 5%;
+  text-align: left;
+  position: relative;
+  width: 100%;
+}
+/* @media all and (max-width: 1024px) {
+}
+@media all and (max-width: 940px) {
+} */
+@media all and (max-width: 768px) {
+  .fd-inner-text {
+    font-size: 14px;
+  }
+}
+@media all and (max-width: 600px) {
+  .fd-inner-text {
+    font-size: 12px;
+  }
+}
